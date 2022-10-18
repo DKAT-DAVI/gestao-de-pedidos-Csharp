@@ -46,6 +46,7 @@
             // 
             this.lstProdutos.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.lstProdutos.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstProdutos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(50)))));
             this.lstProdutos.FormattingEnabled = true;
             this.lstProdutos.ItemHeight = 23;
             this.lstProdutos.Location = new System.Drawing.Point(16, 9);

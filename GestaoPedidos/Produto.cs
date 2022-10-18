@@ -8,10 +8,12 @@ namespace GestaoPedidos
 {
     internal class Produto
     {
+        //Propriedades
         public Int64 Codigo { get; set; }
         public String Nome { get; set; }
         public Decimal Preco { get; set; }
 
+        //Contrutores
         public Produto() {}
 
         public Produto(Int64 codigo, String nome, Decimal preco)
@@ -21,9 +23,10 @@ namespace GestaoPedidos
             Preco = preco; 
         }
 
+        //ToString
         public override string ToString() 
         {
-            return $"{Nome}[R${Preco}]";
+            return $"{Nome} [R${Preco}]";
         }
     }
 }

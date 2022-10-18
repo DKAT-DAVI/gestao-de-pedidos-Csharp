@@ -12,28 +12,64 @@ namespace GestaoPedidos
 {
     public partial class JanelaPrincipal : Form
     {
-        public JanelaPrincipal()
+        private static JanelaPrincipal instance;
+
+        private JanelaPrincipal()
         {
             InitializeComponent();
+            new BancoDadosSimulado();
         }
 
+        public static JanelaPrincipal GetInstance()
+        {
+            if (instance == null || instance.IsDisposed)
+            {
+                instance = new JanelaPrincipal();
+            }
+
+            return instance;
+        }
+
+        //Fechando pelo MenuStrip
         private void mnuArquivoSair_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        //Abrindo a JanelaProdutos
         private void mnuRelatorioProdutos_Click(object sender, EventArgs e)
         {
             JanelaProdutos j = JanelaProdutos.GetInstance();
-            j.MdiParent = this;
-            j.Show();
+            if (j.MdiParent == null)
+            {
+                j.MdiParent = this;
+                j.Show();
+            }
+            //Verificando se a janela está minimizada
+            else
+            {
+                j.WindowState = FormWindowState.Normal;   
+            }
+            //Sobrepõe e dá foco na janela quando acionado o evento
+            j.Activate();
         }
 
         private void mnuCadastroPedidos_Click(object sender, EventArgs e)
         {
             JanelaPedidos j = JanelaPedidos.GetInstance();
-            j.MdiParent = this;
-            j.Show();
+            if (j.MdiParent == null)
+            {
+                j.MdiParent = this;
+                j.Show();
+
+            }
+            //Verificando se a janela está minimizada
+            else
+            {
+                j.WindowState = FormWindowState.Normal;
+            }
+            //Sobrepõe e dá foco na janela quando acionado o evento
+            j.Activate();
         }
     }
 }

@@ -16,6 +16,9 @@ namespace GestaoPedidos
         private JanelaProdutos()
         {
             InitializeComponent();
+
+            //Lista de Produtos recebe os produtos inseridos no BancoDeDadosSimulado
+            lstProdutos.DataSource = BancoDadosSimulado.Produtos;
         }
 
         public static JanelaProdutos GetInstance()

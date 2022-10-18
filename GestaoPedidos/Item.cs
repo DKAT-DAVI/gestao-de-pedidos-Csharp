@@ -8,14 +8,17 @@ namespace GestaoPedidos
 {
     internal class Item
     {
+        //Propriedades
         public Int16 Quantidade { get; set; }
         public Produto Produto { get; set; }
 
+        //Calcula o total da compra
         public Decimal CalcularTotal()
         {
             return Quantidade * Produto.Preco;
         }
 
+        //Construtores
         public Item()
         {
 
@@ -27,6 +30,7 @@ namespace GestaoPedidos
             Produto = produto;
         }
 
+        //ToString
         public override string ToString()
         {
             return $"{Quantidade} x {Produto} = {CalcularTotal()}";

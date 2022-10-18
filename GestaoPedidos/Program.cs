@@ -16,7 +16,7 @@ namespace GestaoPedidos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new JanelaPrincipal());
+            Application.Run(JanelaPrincipal.GetInstance());
         }
     }
 }

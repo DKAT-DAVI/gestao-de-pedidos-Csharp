@@ -109,6 +109,7 @@
             // btnAcrescentar
             // 
             this.btnAcrescentar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnAcrescentar.Enabled = false;
             this.btnAcrescentar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAcrescentar.ForeColor = System.Drawing.Color.White;
             this.btnAcrescentar.Location = new System.Drawing.Point(113, 226);
@@ -122,6 +123,7 @@
             // 
             this.nudQuantidade.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.nudQuantidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudQuantidade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(50)))));
             this.nudQuantidade.Location = new System.Drawing.Point(105, 195);
             this.nudQuantidade.Name = "nudQuantidade";
             this.nudQuantidade.Size = new System.Drawing.Size(119, 26);
@@ -132,6 +134,7 @@
             this.txtNome.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(50)))));
             this.txtNome.Location = new System.Drawing.Point(71, 74);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(153, 26);
@@ -142,15 +145,18 @@
             this.txtCodigo.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtCodigo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodigo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(50)))));
             this.txtCodigo.Location = new System.Drawing.Point(72, 41);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(152, 26);
             this.txtCodigo.TabIndex = 7;
+            this.txtCodigo.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCodigo_KeyUp);
             // 
             // lstProdutos
             // 
             this.lstProdutos.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.lstProdutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstProdutos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(50)))));
             this.lstProdutos.FormattingEnabled = true;
             this.lstProdutos.ItemHeight = 20;
             this.lstProdutos.Location = new System.Drawing.Point(15, 104);
@@ -162,6 +168,7 @@
             // 
             this.lstItens.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.lstItens.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstItens.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(50)))));
             this.lstItens.FormattingEnabled = true;
             this.lstItens.ItemHeight = 20;
             this.lstItens.Location = new System.Drawing.Point(230, 39);

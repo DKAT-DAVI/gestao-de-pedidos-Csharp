@@ -61,6 +61,7 @@
             // 
             this.lstPedidos.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.lstPedidos.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstPedidos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(50)))));
             this.lstPedidos.FormattingEnabled = true;
             this.lstPedidos.ItemHeight = 23;
             this.lstPedidos.Location = new System.Drawing.Point(19, 9);
