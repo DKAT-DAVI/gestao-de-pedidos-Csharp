@@ -118,6 +118,7 @@
             this.btnAcrescentar.TabIndex = 10;
             this.btnAcrescentar.Text = "ACRESCENTAR";
             this.btnAcrescentar.UseVisualStyleBackColor = false;
+            this.btnAcrescentar.Click += new System.EventHandler(this.btnAcrescentar_Click);
             // 
             // nudQuantidade
             // 
@@ -139,6 +140,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(153, 26);
             this.txtNome.TabIndex = 8;
+            this.txtNome.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtNome_KeyUp);
             // 
             // txtCodigo
             // 

@@ -14,13 +14,42 @@ namespace GestaoPedidos
         public List<Item> Itens { get; set; }
 
         //Métodos
+
+        // Calcula o preço total do pedido varrendo a lista de itens que foram calculados
         public Decimal CalcularTotal()
         {
-            return 0;
+            Decimal total = 0;
+
+            foreach (Item item in Itens)
+            {
+                total += item.CalcularTotal();
+            }
+
+            return total;
         }
+        
         public void AdicionarItem(Item item)
         {
+        }
 
+        //Contrutor
+        public Pedido()
+        {
+            Itens = new List<Item>();
+        }
+        
+        public Pedido(Int64 serial, Int64 notaFiscal, List<Item> itens)
+        {
+            Serial = serial;
+            NotaFiscal = notaFiscal;
+            Itens = itens;
+        }
+
+
+        // Override
+        public override String ToString()
+        {
+            return $"{Serial}{NotaFiscal} : R$ {CalcularTotal().ToString("C")}";
         }
     }
 }

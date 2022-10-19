@@ -12,7 +12,7 @@ namespace GestaoPedidos
         public Int16 Quantidade { get; set; }
         public Produto Produto { get; set; }
 
-        //Calcula o total da compra
+        //Calcula o total dos itens
         public Decimal CalcularTotal()
         {
             return Quantidade * Produto.Preco;
@@ -21,7 +21,6 @@ namespace GestaoPedidos
         //Construtores
         public Item()
         {
-
         }
 
         public Item(Int16 quantidade, Produto produto)
