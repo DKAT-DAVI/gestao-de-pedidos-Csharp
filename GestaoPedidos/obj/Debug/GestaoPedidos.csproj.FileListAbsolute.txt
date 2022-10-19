@@ -25,3 +25,17 @@ G:\WINDOWS\Repositorys\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPe
 G:\WINDOWS\Repositorys\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.exe
 G:\WINDOWS\Repositorys\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.pdb
 G:\WINDOWS\Repositorys\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.JanelaNovoPedido.resources
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\bin\Debug\GestaoPedidos.exe.config
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\bin\Debug\GestaoPedidos.exe
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\bin\Debug\GestaoPedidos.pdb
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.JanelaPrincipal.resources
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.JanelaNovoPedido.resources
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.JanelaPedidos.resources
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.JanelaProdutos.resources
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.Properties.Resources.resources
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.exe
+C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.pdb

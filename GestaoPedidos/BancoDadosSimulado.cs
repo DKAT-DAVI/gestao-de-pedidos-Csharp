@@ -15,7 +15,7 @@ namespace GestaoPedidos
         public static List<Produto> Produtos;
 
         //Contrutores
-        public BancoDadosSimulado()
+        static BancoDadosSimulado()
         {
             Pedidos = new BindingList<Pedido>();
             Produtos = new List<Produto>();
@@ -47,30 +47,24 @@ namespace GestaoPedidos
         }
 
         //Métodos
-        public static List<Produto> LocalizarProdutoPorCodigo(Int64 codigo)
+        public static Produto LocalizarProdutoPorCodigo(Int64 codigo)
         {
             //Cria uma lista pra receber o produto buscado
-            List<Produto> lista = new List<Produto>();
+            Produto produto = null;
 
             //Varre a lista de produtos buscando o código digitado
-            foreach (Produto produto in Produtos)
+            foreach (Produto p in Produtos)
             {
-                //Buscar dentro do código
-                //if (Convert.ToString(produto.Codigo).Contains(Convert.ToString(codigo)))
-                //{
-                //    lista.Add(produto);
-                //}
-
                 //Verifica se o código passado como parâmetro é IGUAL ao código do produto
-                if (codigo == produto.Codigo)
+                if (codigo == p.Codigo)
                 {
                     //Se for igual adiciona na lista
-                    lista.Add(produto);
+                    produto = p;
                 }
             }
 
             //Retorna a lista
-            return lista;
+            return produto;
         }
 
         public static List<Produto> LocalizarProdutoPorParteNome(String parte)

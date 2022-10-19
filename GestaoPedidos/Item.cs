@@ -32,7 +32,7 @@ namespace GestaoPedidos
         //ToString
         public override string ToString()
         {
-            return $"{Quantidade} x {Produto} = {CalcularTotal()}";
+            return $"{Quantidade} x {Produto} = R$ {CalcularTotal()}";
         }
     }
 }

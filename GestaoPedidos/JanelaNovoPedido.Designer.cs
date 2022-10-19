@@ -129,6 +129,11 @@
             this.nudQuantidade.Name = "nudQuantidade";
             this.nudQuantidade.Size = new System.Drawing.Size(119, 26);
             this.nudQuantidade.TabIndex = 9;
+            this.nudQuantidade.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // txtNome
             // 

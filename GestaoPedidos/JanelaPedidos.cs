@@ -17,6 +17,8 @@ namespace GestaoPedidos
         private JanelaPedidos()
         {
             InitializeComponent();
+
+            lstPedidos.DataSource = BancoDadosSimulado.Pedidos;
         }
 
         public static JanelaPedidos GetInstance()

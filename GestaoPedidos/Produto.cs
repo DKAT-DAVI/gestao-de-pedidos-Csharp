@@ -10,7 +10,31 @@ namespace GestaoPedidos
     {
         //Propriedades
         public Int64 Codigo { get; set; }
-        public String Nome { get; set; }
+        
+        private string _nome;
+        public String Nome 
+        { 
+            get
+            {
+                return _nome;
+            } 
+
+            // Se o _nome for maior que 32 caracteres o _nome vai receber somente os 32 primeiros caracteres
+            set
+            {
+                if (value.Length > 32)
+                {
+                    _nome = value.Substring(0, 32);
+                }
+
+                else
+                {
+                    _nome = value;
+                }
+            }
+        }
+
+
         public Decimal Preco { get; set; }
 
         //Contrutores
@@ -23,7 +47,7 @@ namespace GestaoPedidos
             Preco = preco; 
         }
 
-        //ToString
+        // ToString
         public override string ToString() 
         {
             return $"{Nome} [R${Preco}]";
