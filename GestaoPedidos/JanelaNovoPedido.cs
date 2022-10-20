@@ -105,8 +105,8 @@ namespace GestaoPedidos
             // Adiciona os itens na lista dos itens selecionados
             lstItens.Items.Add(item);
 
-            //// Calcular preco da compra e alterar o lblTotal
-            //TotalPedido();
+            //// Alterar o lblTotal
+            lblTotal.Text = $"Total: R$ {_pedidoAuxiliar.CalcularTotal()}";
 
             // Reseta os inserts dos txtBox para uma nova busca
             txtCodigo.Text = null;
