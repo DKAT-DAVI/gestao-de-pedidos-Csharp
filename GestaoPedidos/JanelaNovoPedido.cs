@@ -114,6 +114,7 @@ namespace GestaoPedidos
             lstProdutos.DataSource = null;
             lstProdutos.Items.Clear();
             txtCodigo.Focus();
+            nudQuantidade.Value = 1;
         }
 
 
