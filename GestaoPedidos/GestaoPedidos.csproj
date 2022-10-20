@@ -54,6 +54,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Item.cs" />
+    <Compile Include="JanelaAcesso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JanelaAcesso.Designer.cs">
+      <DependentUpon>JanelaAcesso.cs</DependentUpon>
+    </Compile>
     <Compile Include="JanelaNovoPedido.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JanelaAcesso.resx">
+      <DependentUpon>JanelaAcesso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JanelaNovoPedido.resx">
       <DependentUpon>JanelaNovoPedido.cs</DependentUpon>

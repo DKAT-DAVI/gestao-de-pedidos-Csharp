@@ -30,7 +30,7 @@ namespace GestaoPedidos
             return instance;
         }
 
-        //Chamando a JanleaNovoPedido
+        // Chamando a JanleaNovoPedido
         private void btnNovoPedido_Click(object sender, EventArgs e)
         {
             JanelaNovoPedido j = JanelaNovoPedido.GetInstance();
@@ -38,11 +38,10 @@ namespace GestaoPedidos
             {
                 j.MdiParent = this.MdiParent;
                 j.Show();
-
             }
             else
             {
-                j.WindowState = FormWindowState.Normal;
+                j.WindowState = FormWindowState.Normal;                
             }
             j.Activate();
         }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JanelaProdutos));
             this.pnlProdutos = new System.Windows.Forms.Panel();
             this.lstProdutos = new System.Windows.Forms.ListBox();
             this.pnlProdutos.SuspendLayout();
@@ -61,6 +62,7 @@
             this.ClientSize = new System.Drawing.Size(269, 370);
             this.Controls.Add(this.pnlProdutos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "JanelaProdutos";
             this.Text = "Produtos";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JanelaPedidos));
             this.pnlPedidos = new System.Windows.Forms.Panel();
             this.btnNovoPedido = new System.Windows.Forms.Button();
             this.lstPedidos = new System.Windows.Forms.ListBox();
@@ -76,6 +77,7 @@
             this.ClientSize = new System.Drawing.Size(269, 370);
             this.Controls.Add(this.pnlPedidos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "JanelaPedidos";
             this.Text = "Pedidos";

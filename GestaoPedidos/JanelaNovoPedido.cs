@@ -120,26 +120,28 @@ namespace GestaoPedidos
         //Evento de click no botão SALVAR
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            // Criação do pedido principal
-            Pedido pedido = new Pedido();
-
-            // Atribuicao dos itens do pedido auxiliar para lista de pedidos principal
-            foreach (Item iten in _pedidoAuxiliar.Itens)
+            if (lstItens.Items.Count > 0)
             {
-                pedido.Itens.Add(iten);
-            }
+                // Criação do pedido principal
+                Pedido pedido = new Pedido();
 
-            // Armazenamento do pedido no BancoDados
-            BancoDadosSimulado.Pedidos.Add(pedido);
+                // Atribuicao dos itens do pedido auxiliar para lista de pedidos principal
+                foreach (Item iten in _pedidoAuxiliar.Itens)
+                {
+                    pedido.Itens.Add(iten);
+                }
 
-            // Resetar a lista do pedido auxiliar
-            _pedidoAuxiliar.Itens.Clear();
+                // Armazenamento do pedido no BancoDados
+                BancoDadosSimulado.Pedidos.Add(pedido);
 
-            // Resete do forms para acrescentar um novo pedido
-            lstItens.Items.Clear();
-            txtCodigo.Focus();
-            lblTotal.Text = "Total: R$ ---";
+                // Resetar a lista do pedido auxiliar
+                _pedidoAuxiliar.Itens.Clear();
 
+                // Resete do forms para acrescentar um novo pedido
+                lstItens.Items.Clear();
+                txtCodigo.Focus();
+                lblTotal.Text = "Total: R$ ---";
+            } 
         }
 
 

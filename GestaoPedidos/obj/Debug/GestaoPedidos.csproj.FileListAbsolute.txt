@@ -39,3 +39,4 @@ C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPe
 C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.exe
 C:\Users\Aluno\Desktop\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.pdb
+G:\WINDOWS\Repositorys\gestao-de-pedidos-Csharp\GestaoPedidos\obj\Debug\GestaoPedidos.JanelaAcesso.resources

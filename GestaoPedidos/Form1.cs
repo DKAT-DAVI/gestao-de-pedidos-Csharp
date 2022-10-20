@@ -34,6 +34,7 @@ namespace GestaoPedidos
         private void mnuArquivoSair_Click(object sender, EventArgs e)
         {
             this.Close();
+            JanelaAcesso.GetInstance().Show();
         }
 
         //Abrindo a JanelaProdutos
@@ -44,6 +45,9 @@ namespace GestaoPedidos
             {
                 j.MdiParent = this;
                 j.Show();
+
+                // Organiza as janelas verticalmente
+                this.LayoutMdi(MdiLayout.TileVertical);
             }
             //Verificando se a janela está minimizada
             else
@@ -62,6 +66,9 @@ namespace GestaoPedidos
                 j.MdiParent = this;
                 j.Show();
 
+                // Organiza as janelas verticalmente
+                this.LayoutMdi(MdiLayout.TileVertical);
+
             }
             //Verificando se a janela está minimizada
             else
@@ -70,6 +77,11 @@ namespace GestaoPedidos
             }
             //Sobrepõe e dá foco na janela quando acionado o evento
             j.Activate();
+        }
+
+        private void JanelaPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            JanelaAcesso.GetInstance().Show();
         }
     }
 }
