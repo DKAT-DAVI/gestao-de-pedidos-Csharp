@@ -15,16 +15,13 @@ namespace GestaoPedidos
     public partial class JanelaNovoPedido : Form
     {
         // Criacao de uma variavel auxiliar para transportar os dados do pedido pricipal
-        private Pedido _pedidoAuxiliar;
+        private static Pedido _pedidoAuxiliar = new Pedido();
 
         private static JanelaNovoPedido instance;
 
         private JanelaNovoPedido()
         {
             InitializeComponent();
-
-            // Iniciacao da variavel auxiliar
-            _pedidoAuxiliar = new Pedido();
         }
 
         public static JanelaNovoPedido GetInstance()
@@ -72,8 +69,9 @@ namespace GestaoPedidos
 
                 }
             }
-                    // Faz a verificação de habilitação do botão ACRESCENTAR
-                    HabilitarBotaoAcrescentar();
+
+            // Faz a verificação de habilitação do botão ACRESCENTAR
+            HabilitarBotaoAcrescentar();
         }
 
 
@@ -85,9 +83,6 @@ namespace GestaoPedidos
 
             // O DataSource da lista de produtos recebe a lista retornada do método LocalizarProdutoPorParteNome()
             lstProdutos.DataSource = BancoDadosSimulado.LocalizarProdutoPorParteNome(txtNome.Text);
-            
-            // Limpa a caixa de busca por codigo
-            txtCodigo.Text = null;
 
             // Faz a verificação de habilitação do botão ACRESCENTAR
             HabilitarBotaoAcrescentar();

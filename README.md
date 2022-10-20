@@ -7,6 +7,10 @@
     <img src="https://img.shields.io/badge/STATUS-FINALIZADO-green" alt="status-projeto">
 <div>
 
+<br>
+<div align="center">
+    <img height="400em" src="Files/capa-projeto.png" alt="diagrama-uml">
+</div>
 
 
 <h2>&#X1F4DD Descrição do projeto</h2>
@@ -19,9 +23,11 @@
 
 <h2>&#X1F6A7 Exemplo feito pelo professor</h2>
 
-video
+<div align="center">
+    <img src="Files/gif-projeto-professor.gif">
+</div>
 
-<a href="Exemplo/ControlePedidosCliente.exe" download="ControlePedidosCliente">Executável do programa</a>
+<a href="Exemplo/ControlePedidosCliente.exe" download="ControlePedidosCliente">download do arquivo.exe</a>
 
 <h2>&#X1F528 Funcionalidades do projeto</h2>
 
@@ -35,9 +41,17 @@ video
 
 </ul>
 
-video
+<div align="center">
+    <img src="Files/gif-tela-projeto.gif">
+</div>
 
-<a href="GestaoPedidos/bin/Debug/GestaoPedidos.exe" download="Gestão de Pedidos">Executável do programa</a>
+<h2>&#X1F4C1 Acesso ao projeto</h2>
+
+<p>Acesse o <a href="https://github.com/DKAT-DAVI/gestao-de-pedidos-Csharp">repositório do projeto</a> e faça download do repositório, seja via <a href="https://github.com/DKAT-DAVI/gestao-de-pedidos-Csharp/archive/refs/heads/main.zip">arquivo.zip</a> ou fazendo um git clone do repositório na sua máquina.<p>
+
+<p>Se preferir, faça o downloado apenas do <a href="Files/GestaoPedidos.exe" download="Gestão de Pedidos">arquivo.exe</a> &#X1F4E5</p>
+
+
 
 <h2>&#X2714 Técnicas e Tecnologias utilizadas</h2>
 <ul>
@@ -52,11 +66,24 @@ video
 
 </ul>
 
-<img align="left" alt="DKAT-PHOTO" height="100" src="https://cdn.discordapp.com/attachments/755839774807556242/994404629565673593/GithHubProfilePhoto2.jpeg">
+<h2>&#X1F4DE Contato</h2>
 
-<p>Projeto da matéria de Programação Visual passado pelo professor <a href="https://github.com/guisso">Luis Guisso<a> do IFNMG - Montes Claros com o intuito de testar os conhecimentos em <b>POO</b> e <b>C#</b> antes da iniciação do uso de <b>Banco de Dados</b><p>
+<div style="display: inline_block">
+    <img  align="right" alt="DKAT-PHOTO" height="150" src="https://cdn.discordapp.com/attachments/755839774807556242/994404629565673593/GithHubProfilePhoto2.jpeg">
+    <ul>
+        <li>dkatdavi@gmail.com</li>
+        <li><a href="https://www.linkedin.com/in/dkat-davi/">Linkedln</a> </li>    
+    </ul>
+</div>
+
+<br><br>
 
 <a href="https://github.com/dkat-davi">
-<p align="left">BY DKAT<p>
+<p align="right">BY DKAT<p>
 </a>
 
+<hr>
+
+<footer align="justify">
+    <p>Projeto da matéria de Programação Visual atribuido pelo professor <a href="https://github.com/guisso">Luis Guisso<a> do IFNMG - Montes Claros com o intuito de testar os conhecimentos em <b>POO</b>, <b>C#</b> e criação de interfaces.
+<footer>

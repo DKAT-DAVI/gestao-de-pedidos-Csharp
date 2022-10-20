@@ -45,10 +45,8 @@ namespace GestaoPedidos
             {
                 j.MdiParent = this;
                 j.Show();
-
-                // Organiza as janelas verticalmente
-                this.LayoutMdi(MdiLayout.TileVertical);
             }
+
             //Verificando se a janela está minimizada
             else
             {
@@ -65,11 +63,8 @@ namespace GestaoPedidos
             {
                 j.MdiParent = this;
                 j.Show();
-
-                // Organiza as janelas verticalmente
-                this.LayoutMdi(MdiLayout.TileVertical);
-
             }
+
             //Verificando se a janela está minimizada
             else
             {
