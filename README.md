@@ -9,7 +9,7 @@
 
 <br>
 <div align="center">
-    <img height="400em" src="Files/capa-projeto.png" alt="diagrama-uml">
+    <img height="400em" src="FilesReadme/capa-projeto.png" alt="diagrama-uml">
 </div>
 
 
@@ -24,7 +24,7 @@
 <h2>&#X1F6A7 Exemplo feito pelo professor</h2>
 
 <div align="center">
-    <img src="Files/gif-projeto-professor.gif">
+    <img src="FilesReadme/gif-projeto-professor.gif">
 </div>
 
 <a href="Exemplo/ControlePedidosCliente.exe" download="ControlePedidosCliente">download do arquivo.exe</a>
@@ -42,14 +42,14 @@
 </ul>
 
 <div align="center">
-    <img src="Files/gif-tela-projeto.gif">
+    <img src="FilesReadme/gif-tela-projeto.gif">
 </div>
 
 <h2>&#X1F4C1 Acesso ao projeto</h2>
 
 <p>Acesse o <a href="https://github.com/DKAT-DAVI/gestao-de-pedidos-Csharp">repositório do projeto</a> e faça download do repositório, seja via <a href="https://github.com/DKAT-DAVI/gestao-de-pedidos-Csharp/archive/refs/heads/main.zip">arquivo.zip</a> ou fazendo um git clone do repositório na sua máquina.<p>
 
-<p>Se preferir, faça o downloado apenas do <a href="Files/GestaoPedidos.exe" download="Gestão de Pedidos">arquivo.exe</a> &#X1F4E5</p>
+<p>Se preferir, faça o downloado apenas do <a href="FilesReadme/GestaoPedidos.exe" download="Gestão de Pedidos">arquivo.exe</a> &#X1F4E5</p>
 
 
 
