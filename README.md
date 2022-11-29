@@ -9,7 +9,7 @@
 
 <br>
 <div align="center">
-    <img height="400em" src="FilesReadme/capa-projeto.png" alt="diagrama-uml">
+    <img max-height="400em" src="FilesReadme/capa-projeto.png" alt="diagrama-uml">
 </div>
 
 
@@ -18,7 +18,7 @@
 <p>Baseando-se no diagrama UML abaixo, o projeto consiste na criação de uma <b>GUI</b> para fazer um mini programa que gerencia pedidos de um supermercado, usando um Banco de Dados estático e o usuário faz um pedido que é adicionado a uma uma lista de pedidos gerando uma Nota Fiscal.<p>
 
 <div align="center">
-    <img height="450em" src="Exemplo/Diagrama.png" alt="diagrama-uml">
+    <img max-height="450em" src="Exemplo/Diagrama.png" alt="diagrama-uml">
 </div>
 
 <h2>&#X1F6A7 Exemplo feito pelo professor</h2>
@@ -47,11 +47,7 @@
 
 <h2>&#X1F4C1 Acesso ao projeto</h2>
 
-<p>Acesse o <a href="https://github.com/DKAT-DAVI/gestao-de-pedidos-Csharp">repositório do projeto</a> e faça download do repositório, seja via <a href="https://github.com/DKAT-DAVI/gestao-de-pedidos-Csharp/archive/refs/heads/main.zip">arquivo.zip</a> ou fazendo um git clone do repositório na sua máquina.<p>
-
-<p>Se preferir, faça o downloado apenas do <a href="FilesReadme/GestaoPedidos.exe" download="Gestão de Pedidos">arquivo.exe</a> &#X1F4E5</p>
-
-
+<p>Acesse o <a href="https://github.com/DKAT-DAVI/gestao-de-pedidos-Csharp">repositório do projeto</a> e faça download do repositório, seja via <a href="https://github.com/DKAT-DAVI/gestao-de-pedidos-Csharp/archive/refs/heads/main.zip">arquivo.zip</a> ou fazendo um git clone do repositório na sua máquina e compile o programa usando o <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio</a>.<p>
 
 <h2>&#X2714 Técnicas e Tecnologias utilizadas</h2>
 <ul>
@@ -69,18 +65,14 @@
 <h2>&#X1F4DE Contato</h2>
 
 <div style="display: inline_block">
-    <img  align="right" alt="DKAT-PHOTO" height="150" src="https://cdn.discordapp.com/attachments/755839774807556242/994404629565673593/GithHubProfilePhoto2.jpeg">
     <ul>
         <li>dkatdavi@gmail.com</li>
         <li><a href="https://www.linkedin.com/in/dkat-davi/">Linkedln</a> </li>    
     </ul>
+    <a href="https://github.com/dkat-davi">
+        <p align="right">BY DKAT<p>
+    </a>
 </div>
-
-<br><br>
-
-<a href="https://github.com/dkat-davi">
-<p align="right">BY DKAT<p>
-</a>
 
 <hr>
 
