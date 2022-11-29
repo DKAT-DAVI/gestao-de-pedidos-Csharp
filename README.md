@@ -65,13 +65,9 @@
 <h2>&#X1F4DE Contato</h2>
 
 <div style="display: inline_block">
-    <ul>
-        <li>dkatdavi@gmail.com</li>
-        <li><a href="https://www.linkedin.com/in/dkat-davi/">Linkedln</a> </li>    
-    </ul>
-    <a href="https://github.com/dkat-davi">
-        <p align="right">BY DKAT<p>
-    </a>
+          
+[![Linkedin: SEU NOME](https://img.shields.io/badge/-dkatdavi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=(https://www.linkedin.com/in/dkat-davi/))](https://www.linkedin.com/in/dkat-davi/)
+[![Gmail Badge](https://img.shields.io/badge/-dkatdavi@gmail.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:dkatdavi@gmail.com)](mailto:dkatdavi@gmail.com)
 </div>
 
 <hr>
